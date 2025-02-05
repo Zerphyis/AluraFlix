@@ -36,49 +36,50 @@ Maven
 PostgreSQL (ou outro banco de dados relacional configurado)
 <br>
 <h2>Endpoints da API</h2>
-<h4><b>Autenticação</b></h4>
-POST /auth/login<br>
+<h3><b>Autenticação</b></h3>
+<b>POST /auth/login<br></b>
 
 ![Image](https://github.com/user-attachments/assets/714d1aff-cada-41a9-976c-d87b0f4d2757)
 
 <br>
-POST /auth/register<br>
+<b>POST /auth/register</b>
+<br>
 
 ![Image](https://github.com/user-attachments/assets/5f31b965-8a99-4430-90dd-64afed188e50)
 
 <br>
-<h4><b>Vídeos</b></h4>
-POST /videos/adicionar
+<h3><b>Vídeos</b></h3>
+<b>POST /videos/adicionar</b>
 <br>
 
 ![Image](https://github.com/user-attachments/assets/9a0247f5-b0dc-496a-81bf-b721e6f2232e)
 
 <br>
-GET /videos/buscar
+<b>GET /videos/buscar</b>
 <br>
 
 ![Image](https://github.com/user-attachments/assets/b92c54bf-d4d4-466c-b66d-ecde9bfb170f)
 
 <br>
-GET /videos/buscar/{id}
+<b>GET /videos/buscar/{id}</b>
 <br>
 
 ![Image](https://github.com/user-attachments/assets/e53f51ab-2072-49d7-9d60-b687bda07645)
 
 <br>
-PUT /videos/atualizar/{id}
+<b>PUT /videos/atualizar/{id}</b>
 <br>
 
 ![Image](https://github.com/user-attachments/assets/a290f6d2-79f8-4fcd-abc2-c8572174475b)
 
 <br>
-DELETE /videos/deletar/{id}
+<b>DELETE /videos/deletar/{id}</b>
 <br>
 
 ![Image](https://github.com/user-attachments/assets/32fc8c60-7bd5-4add-9619-864027002ff9)
 
 <br>
-GET /videos/buscar/categoria/{categoriaId}
+<b>GET /videos/buscar/categoria/{categoriaId}</b>
 <br>
 
 ![Image](https://github.com/user-attachments/assets/cef9e6c8-8c69-4379-9b59-746622fd2dd4)
