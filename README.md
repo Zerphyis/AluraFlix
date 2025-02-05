@@ -31,8 +31,11 @@ PostgreSQL: Banco de dados utilizado para persistência dos dados.
 
 <h2>Como Rodar o Projeto</h2>
 <b>Pré-requisitos</b>
+<br>
 Java 17 ou superior
+<br>
 Maven
+<br>
 PostgreSQL (ou outro banco de dados relacional configurado)
 <br>
 <h2>Endpoints da API</h2>
