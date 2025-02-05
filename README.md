@@ -36,7 +36,7 @@ Maven
 PostgreSQL (ou outro banco de dados relacional configurado)
 <br>
 <h2>Endpoints da API</h2>
-<h6>Autenticação</h6>
+<h4><b>Autenticação</b></h4>
 POST /auth/login<br>
 
 ![Image](https://github.com/user-attachments/assets/714d1aff-cada-41a9-976c-d87b0f4d2757)
@@ -47,7 +47,7 @@ POST /auth/register<br>
 ![Image](https://github.com/user-attachments/assets/5f31b965-8a99-4430-90dd-64afed188e50)
 
 <br>
-<h6>Vídeos</h6>
+<h4><b>Vídeos</b></h4>
 POST /videos/adicionar
 <br>
 
