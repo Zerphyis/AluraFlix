@@ -4,6 +4,7 @@ import dev.Zerpyhis.Aluraflix.entidades.categoria.Categoria;
 import dev.Zerpyhis.Aluraflix.entidades.categoria.DadosCategoria;
 import dev.Zerpyhis.Aluraflix.entidades.repositorios.RepositoryCategoria;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -19,8 +20,8 @@ public class ServiceCategoria {
     }
 
 
-    public List<Categoria> listar() {
-        return repository.findAll();
+    public List<Categoria> listar(Pageable pageable) {
+        return repository.findAll(pageable).getContent();
     }
 
 

@@ -4,6 +4,8 @@ import dev.Zerpyhis.Aluraflix.entidades.categoria.Categoria;
 import dev.Zerpyhis.Aluraflix.entidades.categoria.DadosCategoria;
 import dev.Zerpyhis.Aluraflix.services.ServiceCategoria;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -24,8 +26,8 @@ public class ControllerCategoria {
         }
 
         @GetMapping("/buscar")
-        public ResponseEntity<List<Categoria>> listarTodas() {
-            return ResponseEntity.ok(categoriaService.listar());
+        public ResponseEntity<List<Categoria>> listarTodas(@PageableDefault(size = 10) Pageable pageable) {
+            return ResponseEntity.ok(categoriaService.listar(pageable));
         }
 
         @GetMapping("/buscar/{id}")

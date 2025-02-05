@@ -2,6 +2,7 @@ package dev.Zerpyhis.Aluraflix.entidades.video;
 
 import dev.Zerpyhis.Aluraflix.entidades.categoria.Categoria;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
 
 
 @Entity
@@ -10,8 +11,11 @@ public class Video {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+    @NotBlank
     private String descricao;
+    @NotBlank
     private String titulo;
+    @NotBlank
     private String url;
     @ManyToOne
     @JoinColumn(name = "categoria_id")

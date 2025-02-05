@@ -6,6 +6,8 @@ import dev.Zerpyhis.Aluraflix.entidades.repositorios.RepositoryVideo;
 import dev.Zerpyhis.Aluraflix.entidades.video.DadosVideo;
 import dev.Zerpyhis.Aluraflix.entidades.video.Video;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -29,8 +31,8 @@ public class ServiceVideo {
     }
 
 
-    public List<Video> listar() {
-        return repositoryVideo.findAll();
+    public List<Video> listar(Pageable page) {
+        return repositoryVideo.findAll(page).getContent();
     }
 
 
