@@ -84,9 +84,34 @@ GET /videos/buscar/categoria/{categoriaId}
 ![Image](https://github.com/user-attachments/assets/cef9e6c8-8c69-4379-9b59-746622fd2dd4)
 
 <br>
-<h6>Categoria</h6>
-POST /categorias/adicionar
-GET /categorias/buscar
-GET /categorias/buscar/{id}
-PUT /categorias/atualizar/{id}
-DELETE /categorias/deletar/{id}
+<h3><b>Categoria</b></h3>
+<b>POST /categorias/adicionar</b>
+<br>
+
+![Image](https://github.com/user-attachments/assets/2ecbd16e-9f15-4e15-9b53-73877908dfe0)
+
+<br>
+<b>GET /categorias/buscar</b>
+<br>
+
+![Image](https://github.com/user-attachments/assets/ee58e203-6f9e-4d5f-95c5-8686c1eaf69d)
+
+<br>
+<b>GET /categorias/buscar/{id}</b>
+<br>
+
+![Image](https://github.com/user-attachments/assets/2b2db881-f12b-444d-9e12-265994b80c5b)
+
+<br>
+<b>PUT /categorias/atualizar/{id}</b>
+<br>
+
+![Image](https://github.com/user-attachments/assets/9027a734-9b9d-46ca-aae2-fe52bee53f19)
+
+<br>
+<b>DELETE /categorias/deletar/{id}</b>
+
+<br>
+
+![Image](https://github.com/user-attachments/assets/480076f3-2656-42c4-980d-7a409f2218a2)
+<br>
